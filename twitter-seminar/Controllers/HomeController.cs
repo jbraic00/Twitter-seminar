@@ -26,5 +26,20 @@ namespace twitter_seminar.Controllers
 
             return View();
         }
+
+        public ActionResult AllTweets()
+        {
+            return View();
+        }
+
+        public ActionResult TweetsByFollowedUsers()
+        {
+            return View();
+        }
+
+        public ActionResult UserProfile()
+        {
+            return View();
+        }
     }
 }
