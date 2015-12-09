@@ -14,12 +14,9 @@ namespace twitter_seminar.Models
         public string Username { get; set; }
         [Required]
         public string Password { get; set; }
-        [Required]
         public string Name { get; set; }
-        [Required]
         public string Lastname { get; set; }
         public string PictureUrl { get; set; }
-        [Required]
         [DataType(DataType.EmailAddress)]
         public string Email { get; set; }
         public string Location { get; set; }
