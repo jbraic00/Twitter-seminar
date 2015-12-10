@@ -1,8 +1,90 @@
-﻿<h2>TweetsByFollowedUsers</h2>
-<div role="navigation">
+﻿<br />
+<br />
+<div role="navigation" class="col-sm-8 col-sm-offset-2">
     <ul class="nav nav-tabs nav-justified">
-        <li role="presentation">@Html.ActionLink("Newest", "AllTweets", "Home")</li>
-        <li role="presentation" class="active">@Html.ActionLink("By followed users", "TweetsByFollowedUsers", "Home")</li>
-        <li role="presentation">@Html.ActionLink("UserProfile", "UserProfile", "Home")</li>
+        <li role="presentation" class="hoverable">@Html.ActionLink("Newest", "AllTweets", "Home")</li>
+        <li role="presentation" class="active z-depth-1 hoverable">@Html.ActionLink("By followed users", "TweetsByFollowedUsers", "Home")</li>
+        <li role="presentation" class="hoverable">@Html.ActionLink("UserProfile", "UserProfile", "Home")</li>
     </ul>
 </div>
+<br />
+<div class="card-panel no-padding comments-section">
+    <div class="divider-new"><h5 class="text-center title ">Followed users</h5></div>
+    <hr>
+    <div class="container-fluid">
+        <!--First row-->
+        <div class="row hoverable">
+            <div class="col-sm-2">
+                <img src="http://mdbootstrap.com/wp-content/uploads/2015/10/avatar-1.jpg" class="img-responsive img-circle z-depth-">
+            </div>
+            <div class="col-sm-10">
+                <h5 class="title"><a href="#">John Sulivan</a> <i class="fa fa-heart"></i></h5>
+                <i class="fa fa-clock-o"> 05/10/2015</i>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores illum impedit dolor possimus architecto labore.<span style="color: deepskyblue;">#feelingfabulous</span></p>
+                <div class="row">
+                    <h5 class="col-sm-1 col-sm-offset-11"><i class="fa fa-star-o"></i></h5>
+                </div>
+                <div class="col-sm-10 col-sm-offset-1 panel panel-default z-depth-1">
+                    <div class="panel-body">
+                        <p class="title"><a href="#">Anna Maria</a>: Reading my mind!<span style="color: deepskyblue;">#truedat</span></p>
+                        <p class="title"><a href="#">Sara Romano</a>: <span style="color: deepskyblue;">#OMG</span>Was thinking the same thing!<span style="color: deepskyblue;">#Cantbelieve</span></p>
+                    </div>
+                    <div class="panel panel-default hoverable">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">Add Comment:</h4>
+                        </div>
+                        <div class="panel-body">
+                            <form>
+                                <div class="row">
+                                    <div class="input-field col-sm-6">
+                                        <textarea id="textarea1" class="materialize-textarea"></textarea>
+                                    </div>
+                                    <div class="col-sm-1 col-sm-offset-7">
+                                        <button type="submit" class="btn btn-default">Submit</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--/.First row-->
+        <div class="row hoverable">
+            <div class="col-sm-2">
+                <img src="http://mdbootstrap.com/wp-content/uploads/2015/10/avatar-1.jpg" class="img-responsive img-circle z-depth-">
+            </div>
+            <div class="col-sm-10">
+                <h5 class="title"><a href="#">John Sulivan</a> <i class="fa fa-heart"></i></h5>
+                <i class="fa fa-clock-o"> 05/10/2015</i>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores illum impedit dolor possimus architecto labore.<span style="color: deepskyblue;">#feelingfabulous</span></p>
+                <div class="row">
+                    <h5 class="col-sm-1 col-sm-offset-11"><i class="fa fa-star-o"></i></h5>
+                </div>
+                <div class="col-sm-10 col-sm-offset-1 panel panel-default z-depth-1">
+                    <div class="panel-body">
+                        
+                    </div>
+                    <div class="panel panel-default hoverable">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">Add Comment:</h4>
+                        </div>
+                        <div class="panel-body">
+                            <form>
+                                <div class="row">
+                                    <div class="input-field col-sm-6">
+                                        <textarea id="textarea1" class="materialize-textarea"></textarea>
+                                    </div>
+                                    <div class="col-sm-1 col-sm-offset-7">
+                                        <button type="submit" class="btn btn-default">Submit</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+

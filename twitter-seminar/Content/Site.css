@@ -47,8 +47,33 @@ textarea {
 
 .sign-in-up .right-inner-addon i {
     position: absolute;
-    right: 0px;
+    right: 0;
     padding: 17px 12px;
     pointer-events: none;
 }
 
+
+/*za komentare?*/
+/*.comments panel-body {
+    position: relative;
+    background: #F7F7F7;
+    padding: 15px;
+    margin-top: 50px;
+}
+
+.comments > div::before {
+    background-color: #F7F7F7;
+    box-shadow: -2px 2px 2px 0 rgba( 178, 178, 178, .4 );
+    content: "\00a0";
+    display: block;
+    height: 30px;
+    left: 20px;
+    position: absolute;
+    top: -13px;
+    -moz-transform: rotate( 135deg );
+    -ms-transform: rotate( 135deg );
+    -o-transform: rotate( 135deg );
+    -webkit-transform: rotate( 135deg );
+    transform: rotate( 135deg );
+    width: 30px;
+}*/
