@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Web;
 
@@ -13,6 +14,7 @@ namespace twitter_seminar.Models
         //[RegularExpression(@"(?<=\s|^)#(\w*[A-Za-z_]+\w*)")]
         public string Text { get; set; }
 
-        public virtual Tweet Tweet { get; set; }
+        [InverseProperty("Hashtags")]
+        public virtual ICollection<Tweet> Tweets { get; set; }
     }
 }

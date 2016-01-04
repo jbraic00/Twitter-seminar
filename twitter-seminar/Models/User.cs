@@ -26,6 +26,7 @@ namespace twitter_seminar.Models
         [InverseProperty("UsersFavorited")]
         public virtual ICollection<Tweet> FavoritedTweets { get; set; }
         public virtual ICollection<User> FollowedUsers { get; set; }
+        public virtual ICollection<User> FollowedByUsers { get; set; }
         public virtual ICollection<Comment> UserComments { get; set; }
     }
 }

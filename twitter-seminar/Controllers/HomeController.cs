@@ -41,5 +41,10 @@ namespace twitter_seminar.Controllers
         {
             return View();
         }
+
+        public ActionResult OtherProfiles()
+        {
+            return View();
+        }
     }
 }
